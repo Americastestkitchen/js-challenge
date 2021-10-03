@@ -36,10 +36,12 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "@types/react": "^17.0.27",
     "eslint": "^7.32.0",
     "eslint-config-next": "11.1.0",
     "global-jsdom": "^8.1.0",
     "jest": "^27.0.6",
-    "jest-styled-components": "^7.0.5"
+    "jest-styled-components": "^7.0.5",
+    "typescript": "^4.4.3"
   }
 }
