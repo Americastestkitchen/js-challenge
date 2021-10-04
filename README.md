@@ -56,6 +56,12 @@ Below are several tasks from which you can choose. _**Please choose at least 3 o
 * CHALLENGE 8: Index page grid geolocation
   * The featured brewery on the home page uses a popular geolocation hook. Expand the use of this hook so the user's location can be easily used in other components by using Context.
   * Provide a fallback location in the event a user declines sharing their location.
+* CHALLENGE 9: Convert components/FeaturedBrewery file to Typescript
+  * The basic addition of adding typescript to a nextjs app has been done already. In this challenge you will convert a single file to full type safety.
+  * The use-position hook has an outdated DefinatelyTyped entry, update this entry locally using correct and more accurate typings and keep existing documentation. 
+  * The styled components and theme needs typings, add these to the project.
+  * Finally, the v3 preview of styled-components-breakpoint is written in Typescript. Update the breakpoint usage to be type safe.
+
 
 
 ## Final Instructions
