@@ -61,6 +61,10 @@ Below are several tasks from which you can choose. _**Please choose at least 3 o
   * The use-position hook has an outdated DefinatelyTyped entry, update this entry locally using correct and more accurate typings and keep existing documentation. 
   * The styled components and theme needs typings, add these to the project.
   * Finally, the v3 preview of styled-components-breakpoint is written in Typescript. Update the breakpoint usage to be type safe.
+* CHALLENGE 10: Custom server with basic authentication
+  * Our senior leadership has requested that we add basic authentication to the app when we're not in production.
+  * While this can be added in many ways, we want to see if you can create a custom server implementation using Express or Fastify.
+  * Create ENV variables that enable or disable basic authentication and use them to protect this glorious application from public scrutiny.
 
 
 
