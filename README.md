@@ -47,7 +47,7 @@ Below are several tasks from which you can choose. _**Please choose at least 4 o
 * CHALLENGE 5: Search loading state
   * Most sites include a 'loading' or skeleton component while data populates
   * Create a nice loading state for the results grid.
-  * Note: we're looking for more than a fancy spinner here. An acceptable solution would include placeholder components for the grid and cards while the component is in a loading state. 
+  * Note: we're looking for more than a fancy spinner here. An acceptable solution would include placeholder components for the grid and cards while the component is in a loading state.
 * CHALLENGE 6: Search page pagination
   * create a basic pagination controls to move between paged recordsets
 * CHALLENGE 7: Index page brewery type browsing controls
@@ -59,13 +59,21 @@ Below are several tasks from which you can choose. _**Please choose at least 4 o
   * Provide a fallback location in the event a user declines sharing their location.
 * CHALLENGE 9: Convert components/FeaturedBrewery file to Typescript
   * The basic addition of adding typescript to a nextjs app has been done already. In this challenge you will convert a single file to full type safety.
-  * The use-position hook has an outdated DefinatelyTyped entry, update this entry locally using correct and more accurate typings and keep existing documentation. 
+  * The use-position hook has an outdated DefinatelyTyped entry, update this entry locally using correct and more accurate typings and keep existing documentation.
   * The styled components and theme needs typings, add these to the project.
   * Finally, the v3 preview of styled-components-breakpoint is written in Typescript. Update the breakpoint usage to be type safe.
 * CHALLENGE 10: Custom server with basic authentication
   * Our senior leadership has requested that we add basic authentication to the app when we're not in production.
   * While this can be added in many ways, we want to see if you can create a custom server implementation using Express or Fastify.
   * Create ENV variables that enable or disable basic authentication and use them to protect this glorious application from public scrutiny.
+* CHALLENGE 11: Newsletter component
+  * Flex your css skills by adding a FLEXIBLE newletter component on the index page so users can get breweries in their inbox.
+  * The component should match the image and styling in the public folder.
+  * Use styled-components to complete this task.
+  * The newsletter should take in props the Heading and submit button text, then require and verify props within the component.
+  * The "how we use your email" link should display a popup message when a user clicks on it. The text shown is at your discretion.
+  * Please keep Accessbility in mind when creating the component.
+  * A confirmation message should replace the form when a user submits a valid email. If the email is not valid, display an error message.
 
 
 
