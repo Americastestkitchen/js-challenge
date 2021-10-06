@@ -23,7 +23,7 @@ yarn dev
 
 This application has a few basic pages which display data from the Open Brewery Database API. The Home page, Search page and Brewery Detail page represent a typical information hierarchy which exists on many sites. Your task is to fix a few bugs, add some features and clean up this version of the application.
 
-Below are several tasks from which you can choose. _**Please choose at least 3 of these tasks.**_ Spend no more than 4 hours on this coding challenge.
+Below are several tasks from which you can choose. _**Please choose at least 4 of these tasks.**_ Spend no more than 4 hours on this coding challenge.
 
 ## Challenges
 * CHALLENGE-1: Accessibility
@@ -47,6 +47,7 @@ Below are several tasks from which you can choose. _**Please choose at least 3 o
 * CHALLENGE 5: Search loading state
   * Most sites include a 'loading' or skeleton component while data populates
   * Create a nice loading state for the results grid.
+  * Note: we're looking for more than a fancy spinner here. An acceptable solution would include placeholder components for the grid and cards while the component is in a loading state. 
 * CHALLENGE 6: Search page pagination
   * create a basic pagination controls to move between paged recordsets
 * CHALLENGE 7: Index page brewery type browsing controls
@@ -68,5 +69,6 @@ Below are several tasks from which you can choose. _**Please choose at least 3 o
 * Please have no more than one commit per task. If you would like to commit more frequently along the way, that's fine but please squash your commits.
 * Label your commit message based on the challenge id.
   * For Example: `CHALLENGE2 - adding tests for components x, y, z`
+* Some candidates choose to spend more time than 4 hours on this challenge. This is neither required nor expected. However, if you choose to do so, please label any commits that occur after the 4hr limit as `BONUS: CHALLENGE X...` so that it is easy to see at a glance where the bonus work started.
 * If you have questions along the way, please email jason.aslakson@americastestkitchen.com
 * Have fun with the exercise and don't feel too much pressure
